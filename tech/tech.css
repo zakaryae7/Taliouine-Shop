@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color--:#394F9D;
+    --secondary-color--:#FC902D;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, 0px); }   
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+  color: white;
+}
+  
+.logo{
+  height: 180px;
+  padding: 2rem;
+  background-color: white;
+  animation: floating 3s ease-in-out infinite;
+}
+.whatsapp{
+    right: 0;
+    bottom: 0;
+    height: 120px;
+    border-radius: 15px;
+    margin: 3rem;
+    position: fixed;
+    transition: 0.3s;
+  }
+  .whatsapp:hover{
+    z-index: 10;
+    transform: scale(1.2);
+  }
+
+.box{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.box img{
+    height: 40px;
+    margin-bottom: 3rem;
+}
+.kits,
+.telephone, 
+.play{
+    width: 15rem;
+    background-color: #FC902D;
+    border-radius: 10px 10px 0px 0px;
+    height: 14rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.kits:hover,
+.telephone:hover, 
+.play:hover{
+    transform: scale(1.2);
+}
+.kits{
+    background-image: url(/images/kits.jpg);    
+}
+.telephone{
+    background-image: url(/images/i11.jpg);
+}
+.play{
+    background-image: url(/images/ps4.jpg);
+}
+.text-box{
+    color: black;
+    margin-bottom: 2rem;
+}
+.tafa{
+    background-color: #FC902D;
+    padding: 0.5rem;
+    margin-top: 10rem;
+}

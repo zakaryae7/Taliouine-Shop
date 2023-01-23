@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color--:#394F9D;
+    --secondary-color--:#FC902D;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, 0px); }   
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  font-family: 'Cairo', sans-serif;
+  color: white;
+}
+  
+.logo{
+  height: 180px;
+  padding: 2rem;
+  background-color: white;
+  animation: floating 3s ease-in-out infinite;
+}
+.whatsapp{
+    right: 0;
+    bottom: 0;
+    height: 120px;
+    border-radius: 15px;
+    margin: 3rem;
+    position: fixed;
+    transition: 0.3s;
+  }
+  .whatsapp:hover{
+    z-index: 10;
+    transform: scale(1.2);
+}
+.infos{
+    margin-top: 5rem;
+    border: 1px solid var(--primary-color--);
+    width: 70%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem;
+}
+.infos-info{
+    color: black;
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.infos-info img{
+    margin-right: 5rem;
+    height: 300px;
+}
+.infos-info-info p{
+    line-height: 20px;    
+}
+.otlob{
+    padding: 1rem 3rem 1rem 3rem;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #FC902D;
+    font-size: 24px;
+    font-weight: bolder;
+    color: black;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+.otlob:hover{
+    background-color: #faa85b;
+}
