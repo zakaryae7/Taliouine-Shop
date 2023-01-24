@@ -94,8 +94,7 @@ body {
   display: block;
   width: 75%;
   color: black;
-  margin-right: auto;
-  margin-left: auto;
   font-weight: 400;
   font-size: 16px;
+  margin: 0rem auto 5rem auto;
 }

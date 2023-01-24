@@ -75,9 +75,11 @@ body {
 }
 .telephone{
     background-image: url(/images/i11.jpg);
+    display: none;
 }
 .play{
     background-image: url(/images/ps4.jpg);
+    display: none;
 }
 .text-box{
     color: black;
@@ -88,3 +90,4 @@ body {
     padding: 0.5rem;
     margin-top: 10rem;
 }
+
