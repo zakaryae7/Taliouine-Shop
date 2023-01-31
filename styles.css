@@ -114,6 +114,9 @@ body {
 .footer p{
   padding-bottom: 3rem;
 }
+.footer h4{
+  font-size: 22px;
+}
 .hesper{
   display: flex;
 }
