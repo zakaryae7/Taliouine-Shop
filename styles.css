@@ -108,7 +108,7 @@ body {
 .footer{
   background-color: #121111;
   font-size: 13px;
-  text-align: start !important;
+  text-align: end !important;
   padding: 3rem 3rem 0rem 3rem;
 }
 .footer p{
@@ -122,5 +122,5 @@ body {
   margin-right: 20px;
 }
 .footer-class{
-  font-size: 16px;
+  font-size: 22px;
 }
