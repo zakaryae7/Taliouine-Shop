@@ -12,7 +12,7 @@
 
 @keyframes floating {
     0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 10px); }
+    50%  { transform: translate(0, 14px); }
     100%   { transform: translate(0, 0px); }   
 }
 a{
@@ -27,7 +27,7 @@ body {
 }
   
 .logo{
-  height: 180px;
+  height: 150px;
   padding: 2rem;
   background-color: white;
   animation: floating 3s ease-in-out infinite;
@@ -97,4 +97,30 @@ body {
   font-weight: 400;
   font-size: 16px;
   margin: 0rem auto 5rem auto;
+}
+.header-toper{
+  background-color: #394F9D;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 3px;
+}
+
+.footer{
+  background-color: #121111;
+  font-size: 13px;
+  text-align: start !important;
+  padding: 3rem 3rem 0rem 3rem;
+}
+.footer p{
+  padding-bottom: 3rem;
+}
+.hesper{
+  display: flex;
+}
+.hesper img{
+  height: 25px;
+  margin-right: 20px;
+}
+.footer-class{
+  font-size: 16px;
 }
