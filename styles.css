@@ -118,8 +118,9 @@ body {
   display: flex;
 }
 .hesper img{
-  height: 35px;
+  height: 45px;
   margin-right: 20px;
+  margin-left: auto;
 }
 .footer-class{
   font-size: 22px;
